@@ -69,6 +69,11 @@ h1 {
     font-weight: 700;
 }
 
+img {
+    height:2em;
+    width: 2em;
+}
+
 /* Header */
 .header {
     display: flex;
@@ -155,10 +160,21 @@ h2 {
     transition: all .1s ease;
 }
 
+.playerChoice > img, .computerChoice > img {
+    height: 6em;
+    width: 6em;
+}
+
 .score {
     display: flex;
     height: 3em;
     justify-content: flex-end;
+}
+
+.score > img {
+    height: 3em;
+    width: 3em;
+    margin-right: 0.8em;
 }
 
 .playerScore, .computerScore, .roundBox {
