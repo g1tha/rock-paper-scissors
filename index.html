@@ -4,13 +4,71 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <script src="scripts.js"></script>
+    <meta name="description" content="Rock Paper Scissors game.">
+    <link rel="stylesheet" href="style.css" media="all">
+    <script src="scripts.js" defer async></script>
     <title>Rock Paper Scissors</title>
 </head>
 <body>
-
-    
-    
+    <div class="header">
+        <h1>Rock Paper Scissors</h1>        
+    </div>
+    <div class="content">
+        <div class="game">
+            <div class="player">
+                <div class="playerChoice" id="playerChoice"></div>
+                <h2>Player</h2>
+                <div class="container">
+                    <div class="rock btn">
+                        <img class="rock icon" src="./img/rock.svg" alt="rock">
+                        <p>rock</p></div>
+                    <div class="paper btn">
+                        <img class="paper icon" src="./img/paper.svg" alt="paper">
+                        <p>paper</p></div>
+                    <div class="scissors btn">
+                        <img class="scissors icon" src="./img/scissors.svg" alt="scissors">
+                        <p>scissors</p></div>
+                </div>
+                <div class="score">
+                    <img class="human icon" src="./img/human.svg" alt="human">
+                    <div class="playerScore">score: 0</div>
+                </div>
+            </div>
+            <div class="computer">
+                <div class="computerChoice" id="computerChoice"></div>
+                <h2>Computer</h2>
+                <div class="container">
+                    <div class="rock btn">
+                        <img class="rock icon" src="./img/rock.svg" alt="rock">
+                        <p>rock</p></div>
+                    <div class="paper btn">
+                        <img class="paper icon" src="./img/paper.svg" alt="paper">
+                        <p>paper</p></div>
+                    <div class="scissors btn">
+                        <img class="scissors icon" src="./img/scissors.svg" alt="scissors">
+                        <p>scissors</p></div>
+                </div>
+                <div class="score">
+                    <img class="robot icon" src="./img/robot.svg" alt="robot">
+                    <div class="computerScore">score: 0</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="information">
+        <div class="notifications"></div>
+        <div class="roundBox">
+            <div class="roundLabel">round: 0 of</div>
+            <form ><input type="text" class="round" value="5" maxlength="1"></form>
+        </div>
+        <div class="restart">restart</div>
+    </div>
+    <div class="footer">
+        <h3>Sources</h3>
+        <ul>
+            <li>icons, as modified, from <a href="https://www.svgrepo.com" target="_blank">svgrep.com</a></li>
+            <li>See <a href="./README.md" target="_blank">README</a> for full list of sources</li>
+        </ul>
+    </div>   
 </body>
 </html>
