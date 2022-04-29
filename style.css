@@ -14,6 +14,9 @@
     --emcol2: #23A4B0;  
 }
 
+* {
+    touch-action: manipulation;
+}
 /* width */
 ::-webkit-scrollbar {
     width: 16px;
